@@ -1,5 +1,6 @@
 {
   "name": "hfcfb/composer-chengdd",
+  "description": "Chengdd test for composer package",
   "require": {
     "php": ">=7.0.33"
   },
