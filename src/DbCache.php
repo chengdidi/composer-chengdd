@@ -27,11 +27,11 @@ class DbCache
      */
     public function __construct($host, $port, $username, $password, $database)
     {
-        $this->host     = $host;
-        $this->port     = $port;
-        $this->username = $username;
-        $this->password = $password;
-        $this->database = $database;
+        if ($host) $this->host = $host;
+        if ($port) $this->port = $port;
+        if ($username) $this->username = $username;
+        if ($password) $this->password = $password;
+        if ($database) $this->database = $database;
     }
 
     /**
@@ -113,7 +113,6 @@ class DbCache
     {
         $this->database = $database;
     }
-
 
 
 }
