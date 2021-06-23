@@ -18,6 +18,23 @@ class DbCache
     private $database;
 
     /**
+     * DbCache constructor.
+     * @param $host
+     * @param $port
+     * @param $username
+     * @param $password
+     * @param $database
+     */
+    public function __construct($host, $port, $username, $password, $database)
+    {
+        $this->host     = $host;
+        $this->port     = $port;
+        $this->username = $username;
+        $this->password = $password;
+        $this->database = $database;
+    }
+
+    /**
      * @return mixed
      */
     public function getHost()
@@ -97,6 +114,6 @@ class DbCache
         $this->database = $database;
     }
 
-    
+
 
 }
