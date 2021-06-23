@@ -1,5 +1,8 @@
 {
   "name": "hfcfb/composer-chengdd",
+  "require": {
+    "php": ">=7.0.33"
+  },
   "autoload": {
     "psr-4": {
       "Hfcfb\\Chengdd\\": "src/"
