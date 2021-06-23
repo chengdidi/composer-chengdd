@@ -1,0 +1,8 @@
+{
+  "name": "hfcfb/composer-chengdd",
+  "autoload": {
+    "psr-4": {
+      "Hfcfb\\Chengdd\\": "src/"
+    }
+  }
+}
